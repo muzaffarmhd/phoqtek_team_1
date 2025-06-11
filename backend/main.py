@@ -21,7 +21,7 @@ import time
 from requests.exceptions import RequestException
 
 # Configure Gemini
-configure(api_key="AIzaSyAGDlqX1x0YkUvEKcryow2q_8G338I3ZI8")
+configure(api_key="")
 model = GenerativeModel('gemini-2.5-flash-preview-05-20', generation_config={"max_output_tokens": 10000})
 app = FastAPI()
 
